@@ -19,7 +19,7 @@ export class LoginComponent implements OnInit {
   logingUser(event){
     event.preventDefault();
     if (this.username == "Brianna" && this.password == "1234"){
-      this.router.navigateByUrl("/account"):
+      this.router.navigateByUrl("/account");
     }
     else{
       alert("Username and password are incorrect");
